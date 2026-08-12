@@ -1,5 +1,6 @@
 public class Solution {
     public int MaxSubarrayLength(int[] nums, int k) {
+        // sliding window 
         Dictionary<int,int> frequencies = new Dictionary<int,int>();
         int maxLength = 0;
         int left = 0;
